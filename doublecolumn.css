@@ -1,0 +1,123 @@
+body{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 75%;
+	background-color: #CCCCFF;}
+h1{color: #FFCCCC;}
+h2{color: #666666;}
+ul{font-style: italic;
+		list-style-type: square;} 
+#bigS{font-style: oblique;}
+
+
+
+
+
+#container{
+	margin: 0 auto;
+	width: 100%;
+}
+#header{
+	background-image:url("wallcracks.jpg");
+	padding:7px 2%;
+}
+#menu{
+	float: left;
+	width: 100%;
+	background-color:#666666;
+}
+#menu ul li{
+	list-style-type: none;
+	display:inline;
+	}
+#menu li a{
+	display: block;
+	text-decoration: none;
+	border-right: 1px solid #CCCCFF;
+	padding: 3px 10px;
+	float: left;
+	color: #CCCCFF;
+	}
+#menu li a:hover{
+	color: #FFCCCC
+	}
+#maincontainer{
+	float: left;
+	width: 100%;
+	}
+#content{
+	clear: left;
+	float: left;
+	width: 65%;
+	padding: 5px 0;
+	margin: 0 0 0 2%;
+	display: inline;
+	}
+#sidebar{
+	float: right;
+	width: 225px;
+	padding: 10px;
+	margin: 0;
+	display: inline;
+	background-color: #FFCCCC;
+	}
+#footer{
+	clear: left;
+	background-color: #CCCCCC;
+	text-align: center;
+	padding: 20px;
+	height:1%;
+	}
+.form-field{
+	clear: both;
+	padding: 10px;
+	width: 550px;
+}
+.form-field label{
+	float: left;
+	width: 250px;
+	text-align: right;
+}
+.form-field input{
+	float: right;
+	width: 250px;
+	text-align: left;
+}
+.form-field select{
+	float: right;
+	width: 250px;
+	text-align: left;
+}
+#comments{
+	float: right;
+	text-align: left;
+}
+#charsLeft{
+	float: right;
+	width: 250px;
+	text-align: left;
+}
+#submit{
+	text-align: center;
+}
+//???
+button{
+	cursor: wait;
+}
+button:hover{
+	color: #CCCCCC;
+}
+
+/*
+.borderClass(
+	border: 3px solid black;
+}
+*/
+
+.box{
+	margin:50px;
+	padding:30px;
+	width:50px;
+	border:2px dotted grey;
+}
+.colorBox{
+	background-color: #FFCCCC;
+}
